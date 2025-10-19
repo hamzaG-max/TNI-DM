@@ -1341,15 +1341,8 @@ with gr.Blocks(title="EuroCount") as demo:
         gr.Markdown("## 5. Étude de la Compression avec Traitement Anti-Artifacts DCT")
         gr.HTML("""
             <div style="background-color: #e6f7ff; border-left: 4px solid #1890ff; padding: 10px; margin-bottom: 20px;">
-                <p><strong>Nouvelle fonctionnalité!</strong> Cette section ajoute un prétraitement spécial pour réduire les artefacts
+                <p> Cette section ajoute un prétraitement  pour réduire les artefacts
                 de compression DCT et améliorer la détection des pièces même sous forte compression.</p>
-                <p>Le traitement adaptatif inclut:</p>
-                <ul>
-                    <li>Détection et estimation automatique du niveau de compression</li>
-                    <li>Filtrage bilatéral adaptatif pour réduire les effets de bloc</li>
-                    <li>Renforcement des contours préservant la détection des cercles</li>
-                    <li>Mélange intelligent des zones lisses/texturées pour éviter les faux positifs</li>
-                </ul>
                 <p><strong>Important:</strong> Cette section utilise les mêmes images compressées que le Problème 3 standard, puis leur applique
                 le traitement anti-artifacts, garantissant ainsi une comparaison directe et équitable des méthodes.</p>
             </div>
